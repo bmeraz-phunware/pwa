@@ -1,9 +1,12 @@
 {
   "name": "phunwarepwa",
   "version": "1.0.0",
-  "main": "scripts/app.js",
+  "main": "app.js",
+  "description": "Progressive web app",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/bmeraz-phunware/pwa.git",
   "scripts": {
-    "start": "scripts/app.js"
+    "start": "app.js"
   },
   "author": "Brian Meraz",
   "engines" : {
