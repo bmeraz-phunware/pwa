@@ -15,10 +15,10 @@ var cacheName = 'phunPWAShell-1';
  * List of files required for the app shell
  */
 var filesToCache = [
-  '/PhunProgressiveWebApp',
-  '/PhunProgressiveWebApp/index.html',
-  '/PhunProgressiveWebApp/scripts/app.js',
-  '/PhunProgressiveWebApp/images/ic_refresh_white_24px.svg'
+  '/',
+  '/index.html',
+  '/scripts/app.js',
+  '/images/ic_refresh_white_24px.svg'
 ];
 
 

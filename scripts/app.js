@@ -296,7 +296,7 @@
   ****************************************************************************/  
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/PhunProgressiveWebApp/service-worker.js')
+             .register('/service-worker.js')
              .then(function() { console.log('[App] Service Worker Registered'); });
   }
 
