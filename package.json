@@ -1,15 +1,16 @@
 {
-  "name": "phunwarepwa",
-  "version": "1.0.0",
-  "main": "app.js",
-  "description": "Progressive web app",
-  "license": "UNLICENSED",
-  "repository": "https://github.com/bmeraz-phunware/pwa.git",
-  "scripts": {
-    "start": "app.js"
+  "name" : "myapp",
+  "version" : "0.1.0",
+  "main" : "myapp.js",
+  "scripts" : {
+    "start" : "node myapp.js"
   },
-  "author": "Brian Meraz",
-  "engines" : {
-    "node" : "~4.0"
+  "engines": {
+    "node": "0.8.15"
+ },
+"dependencies": {
+  "express": "3.x",
+  "socket.io": "0.9.x",
+  "underscore": "1.4.3"
   }
 }
