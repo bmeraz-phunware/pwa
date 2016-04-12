@@ -17,7 +17,7 @@ var cacheName = 'phunPWAShell-1';
 var filesToCache = [
   '/',
   '/index.html',
-  '/scripts/app.js',
+  '/app.js',
   '/images/ic_refresh_white_24px.svg'
 ];
 
