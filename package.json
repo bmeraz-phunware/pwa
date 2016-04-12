@@ -1,0 +1,12 @@
+{
+  "name": "PhunProgressiveWebApp",
+  "version": "1.0.0",
+  "main": "scripts/app.js",
+  "scripts": {
+    "start": "node scripts/app.js"
+  },
+  "author": "Brian Meraz",
+  "engines" : {
+    "node" : "~4.0"
+  }
+}
