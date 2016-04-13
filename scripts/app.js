@@ -158,7 +158,7 @@
 		var finalOffset = 0;
 	}
 	
-	var url = 'https://localhost:8080/data?offset='+finalOffset;
+	var url = 'localhost:8080/data?offset='+finalOffset;
     
         
     /*
