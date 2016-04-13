@@ -158,7 +158,7 @@
 		var finalOffset = 0;
 	}
 	
-	var url = 'https://phunwarepwa.cleverapps.io:8080/data?offset='+finalOffset;
+	var url = 'http://phunwarepwa.cleverapps.io:8080/data?offset='+finalOffset;
     
         
     /*
