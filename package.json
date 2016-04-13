@@ -2,9 +2,6 @@
   "name" : "myapp",
   "version" : "0.1.0",
   "main" : "myapp.js",
-  "scripts" : {
-    "start" : "myapp.js"
-  },
   "engines": {
     "node": "0.8.15"
  },
