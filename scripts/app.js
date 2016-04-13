@@ -160,7 +160,7 @@
 		var finalOffset = offset;
 	}
 	
-	var url = 'https://localhost:8080/data?offset='+finalOffset;
+	var url = 'http://localhost:8080/data?offset='+finalOffset;
     
         
     /*
