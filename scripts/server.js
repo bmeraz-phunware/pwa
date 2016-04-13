@@ -6,10 +6,11 @@
 (function(){
 	
 	var http = require("http");
+	var https = require("https");
 	var url = require("url");
 	
 	
-	http.createServer(function(req, response) {
+	https.createServer(function(req, response) {
 		
 		console.log('[Server] Entering node server now...');
 		var timestamp = Math.round(Date.now() / 1000);
