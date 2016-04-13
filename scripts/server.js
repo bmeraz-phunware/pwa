@@ -8,9 +8,15 @@
 	var http = require("http");
 	var https = require("https");
 	var url = require("url");
+	var fs = require("fs");
+	
+	var options = {
+		key: fs.readFileSync('key.pem');
+		cert: fs.readFileSync('key.cert');
+	}
 	
 	
-	https.createServer(function(req, response) {
+	https.createServer(options, function(req, response) {
 		
 		console.log('[Server] Entering node server now...');
 		var timestamp = Math.round(Date.now() / 1000);
