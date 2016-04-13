@@ -79,7 +79,7 @@ self.addEventListener('activate', function(e) {
 self.addEventListener('fetch', function(e) {
 	
   console.log('[ServiceWorker] Fetch', e.request.url); 
-  var dataUrl = 'https://localhost:8080/data?offset=';
+  var dataUrl = 'http://localhost:8080/data?offset=';
   
   if (e.request.url.indexOf(dataUrl) === 0) {
 	console.log("[ServiceWorker] The request is the Data URL: " + dataUrl);
