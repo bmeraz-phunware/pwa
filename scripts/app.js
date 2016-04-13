@@ -156,6 +156,8 @@
 	
 	if(!offset){
 		var finalOffset = 0;
+	}else{
+		var finalOffset = offset;
 	}
 	
 	var url = 'http://localhost:8080/data?offset='+finalOffset;
